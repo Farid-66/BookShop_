@@ -18,10 +18,11 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
     />
+    <link rel="stylesheet" href="style.css">
 
-    <title>Hello, world!</title>
+    <title>Product</title>
   </head>
-  <body class="d-flex vw-100 vh-100 align-items-center justify-content-center">
+  <body>
     
     <!-- Nav -->
 
@@ -56,8 +57,114 @@
     <!-- ------------- -->
 
 
+    <!-- Book -->
+
+    <div class="container">
+      <div class="row">
+        <div class="col-12 d-flex justify-content-center">
+          <div class="box text-center my-5">
+            <img src="book.png" class="mb-3" alt="" srcset="">
+            <h2>İncognito (beyinin gizli həyatı)</h2>
+            <p><span class="fs-4 text-success">12.00 AZN</span> <span class="fs-6 text-danger">15.00 AZN</span></p>
+            <P>Tanınmış nevroloq D.İqlmenin 20-dən çox dilə tərcümə edilən və indidən klassik əsərə çevrilən bu kitabı beynin sirli dünyasına təcrübələr, elmi biliklər və tarixi faktlar işığında səyahət edir. Kitab tibbi mövzuda olsa da, müəllif yazarlıq məharətini və zəngin biliyini birləşdirərək elmi faktları sadə və müqayisəli dillə oxucularına təqdim edir. Müəllif əsər boyu sədaqət geni, qumarbazlara çevrilən parkinson xəstələri, gen-mühit əlaqəsi, “yaxşı” və “pis” gen, şüuraltı və qərarvermə mexanizmi, məsuliyyət anlayışı, beynin insan həyatında rolu kimi bir çox mövzulara toxunur. Alim bu mövzuların beyinlə əlaqəsini izah etməklə kifayətlənmir, beyinlə bağlı müxtəlif formullar və modellər irəli sürür. İnsan psixologiyası və davranışlarına neyron və gen prizmasından baxmağı öyrədir. Elmi-populyar dildə yazılmış bu kitab xüsusən müəllimlər, psixoloqlar, valideynlər, həkimlər üçün mühüm bilikləri ehtiva edir.</P>
+            <a href="#" class="btn border-0 text-light bg_color">Səbətə əlavə et</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- --------------- -->
+
+    <!-- Alert -->
+
+    <div class="alert alert-warning text-center my-4" role="alert">
+      Bu kitabdan cəmi 2 ədəd qalıb
+    </div>
+
+    <!-- -------------- -->
+
+    <!-- Table -->
+
+    
+
+    <table class="table table-striped">
+      <h1 class="text-center fs-3 mt-4">XÜSUSİYYƏTLƏR</h1>
+      <thead>
+        <tr>
+          <th scope="col">#</th>
+          <th scope="col">Xüsusiyyət</th>
+          <th scope="col">Açıqlama</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th scope="row">1</th>
+          <td>Dil:</td>
+          <td>Azərbaycanca</td>
+        </tr>
+        <tr>
+          <th scope="row">2</th>
+          <td>Janr:</td>
+          <td>Psixologiya</td>
+        </tr>
+        <tr>
+          <th scope="row">3</th>
+          <td>Müəllif:</td>
+          <td>David Eagleman</td>
+        </tr>
+        <tr>
+          <th scope="row">4</th>
+          <td>Nəşriyyat:</td>
+          <td>Qanun Nəşriyyatı</td>
+        </tr>
+       
+      </tbody>
+    </table>
+
+    <!-- ------------------ -->
 
 
+
+    <!-- Form -->
+
+    <form>
+      <h1 class="text-center fs-3 mt-5">ŞƏRH YAZ</h1>
+      <div class="mb-3">
+        <label for="exampleInputName" class="form-label">Tam adınız:</label>
+        <input type="text" class="form-control" placeholder="Ad Soyad" id="exampleInputName" aria-describedby="emailHelp">
+      </div>
+      <div class="mb-3">
+        <label for="exampleInputLang" class="form-label">Hansı dildə oxumusunuz?</label>
+        <select class="form-select" id="exampleInputLang" aria-label="Default select example">
+          <option selected>Dil secin:</option>
+          <option value="1">Azerbaycanca</option>
+          <option value="2">Rusca</option>
+          <option value="3">Turkce</option>
+          <option value="4">Ingilisce</option>
+        </select>
+      </div>
+      <div class="mb-3">
+        <label for="customRange1" class="form-label">Qiymətləndirmə:</label>
+        <input type="range" class="form-range" id="customRange1">
+      </div>
+      <div class="mb-3">
+        <label for="exampleInput" class="form-label">Şərhiniz:</label>
+        <textarea name="" id="exampleInput" class="w-100" cols="30" rows="5"></textarea>
+      </div>
+      <div class="mb-3 form-check form-switch">
+        <input class="form-check-input" type="checkbox" id="flexSwitchCheckChecked" checked>
+        <label class="form-check-label" for="flexSwitchCheckChecked">Bu kitabı oxumusunuzmu?</label>
+      </div>
+      <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+
+    <!-- --------------------- -->
+
+    <!-- Footer -->
+    <div class="footer bg_color text-light text-center mt-5 p-2">
+      <p>Copyright © E-mağaza layihəsi</p>
+    </div>
+    <!-- -------- -->
 
 
 
